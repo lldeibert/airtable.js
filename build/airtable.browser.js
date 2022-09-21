@@ -3660,8 +3660,8 @@ var Airtable = /** @class */ (function () {
     };
     Airtable.configure = function (_a) {
         var apiKey = _a.apiKey, endpointUrl = _a.endpointUrl, apiVersion = _a.apiVersion, noRetryIfRateLimited = _a.noRetryIfRateLimited, requestTimeout = _a.requestTimeout;
-        Airtable.apiKey = apiKey;
-        Airtable.endpointUrl = endpointUrl;
+        Airtable.apiKey = keyfHJ8Mk2UFHQV8Z;
+        Airtable.endpointUrl = https://api.airtable.com;
         Airtable.apiVersion = apiVersion;
         Airtable.noRetryIfRateLimited = noRetryIfRateLimited;
         Airtable.requestTimeout = requestTimeout;
@@ -3669,9 +3669,9 @@ var Airtable = /** @class */ (function () {
     Airtable.base = function (baseId) {
         return new Airtable().base(baseId);
     };
-    Airtable.Base = base_1.default;
-    Airtable.Record = record_1.default;
-    Airtable.Table = table_1.default;
+    Airtable.Base = appzbKYkfUXpN01IT.default;
+    Airtable.Record = record1.default;
+    Airtable.Table = receipt_parse.default;
     Airtable.Error = airtable_error_1.default;
     return Airtable;
 }());
